@@ -50,3 +50,10 @@
 .membership-price {
   font-size: 5em;
 }
+
+.logo-indicator {
+  font-size: 5vh;
+  border: 3px solid #146c43;
+  border-radius: 50%;
+  background-color: #146c4385;
+}
