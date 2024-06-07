@@ -143,8 +143,8 @@
     <section>
       <div class="container">
         <div class="row mt-5 pb-3 pb-md-5">
-          <div class="col-12 col-md-6">
-            <img
+          <div class="col-12 col-md-6 d-flex flex-wrap">
+            <img class="idea-img"
               src="https://cdni.iconscout.com/illustration/premium/thumb/businessman-flying-with-air-balloon-bulb-9106709-7394747.png?f=webp" />
           </div>
           <div class="col-12 col-md-6">
@@ -304,7 +304,7 @@
           </div>
         </div>
         <div class="row justify-content-evenly">
-          <div class="col-3 bg-light ms-5 py-4 mb-5">
+          <div class="col-12 col-md-3 bg-light mx-0 me-md-0 ms-md-5 py-4 mb-5">
             <p><i class="mdi mdi-map-marker-outline text-success logo-indicator"></i> <span
                 class="fs-5 fw-bold">Location:</span></p>
             <p class="ps-5">1111 South Fake Street Faketown. Fake USA</p>
@@ -315,9 +315,9 @@
             </p>
             <p class="ps-5">123-456-7890</p>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <form class="bg-light p-3 d-flex flex-column">
-              <div class="pb-3">
+              <div class="pb-3 d-flex d-md-block">
                 <input type="text" name="fname" id="fname" placeholder="Your Name" />
                 <input type="text" name="mail" id="mail" placeholder="Email" />
               </div>
@@ -341,14 +341,15 @@
     <footer>
       <div class="container-fluid bg-foot">
         <div class="row">
-          <div class="col-12 text-center bg-quote content-gutter">
+          <div class="col-12 text-center bg-quote content-gutter d-flex flex-column align-items-center">
             <i class="mdi mdi-horse-variant logo text-light"></i>
             <p class="fs-2 text-light">Knight</p>
             <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione enim ea maiores
               delectus eaque corporis
               officia id commodi?</p>
           </div>
-          <div class="col-12 bg-quote text-light content-gutter d-flex justify-content-center align-items-center">
+          <div
+            class="col-12 bg-quote text-light content-gutter d-md-flex justify-content-center align-items-center d-none ">
             <form class="form-inline position-relative">
               <div class="form-group mx-sm-3 mb-2 sub-bar">
                 <input type="email" class="form-control" id="enter-email" placeholder="Enter your email" />
